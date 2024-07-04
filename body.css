@@ -357,8 +357,14 @@ p{
     .shop-banner{
         height:100%;
         width:100%;
-        background-color:;  
+        background-color: red;  
     }  
+
+    .shop-banner img{
+        width: 80%;
+        height: 20%;
+        display: none;
+    }
 
     .title-2{
         position: absolute;
