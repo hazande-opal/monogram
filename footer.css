@@ -1,0 +1,115 @@
+footer{
+    width: 100%;
+    height: 320px;
+    background-color: #1a2456;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 350px;
+    column-gap: 15px;
+    padding: 2.5rem;
+}
+
+.col-1{
+    height: 100%;
+
+}
+
+.col-1 ul li{
+    list-style-type: none;
+    font-size: 0.88rem;
+    font-family: sans-serif;
+    color: #efc2b3;
+    margin-top: 0.8rem;
+    
+}
+
+.col-1 ul li a{
+    text-decoration: none;
+    color: #efc2b3;
+}
+
+.col-1 ul li a:hover{
+    color: peru;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.col-1 h3{
+    margin-bottom: 1em;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #efc2b3;
+}
+
+.col-5{
+    display: grid;
+    grid-template-rows: 20px 30px 40px 30px 1fr;
+    row-gap: 12px;
+    
+}
+
+.col-5 h3{
+    font-size: 0.8rem;
+    color: #efc2b3;
+    font-weight: 700;
+    height: 20px;
+}
+
+.bio{
+    font-size: 0.8rem;
+    height: 40px;
+    color: #efc2b3;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.email-box{
+    height: 30px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #efc2b3;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-right: 1rem;
+    color: #efc2b3;
+}
+
+.email-box::placeholder{
+   color: rgba(211, 211, 211, 0.779);
+   letter-spacing: 0.12rem;
+}
+
+.submit-email{
+    height: 30px;
+    width: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: #1a2456;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: #efc2b3c3;
+    cursor: pointer;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.socials ion-icon{
+    height: 25px;
+    width: 25px;
+    margin-right: 0.4rem;
+}
+
+.copyright{
+    font-size: 0.75rem;
+    color: #efc2b3;
+}
