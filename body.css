@@ -12,11 +12,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: ;
-    background-image: url(/images/shop_cta_xl_896f6b8270.webp);
-    backdrop-filter: blur(100px);
-    object-position: center;
-    object-fit: cover;
+   position: relative;
+}
+
+.landing-page img{
+    width: 100%;
+    height: 100%;
+}
+
+.float{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .text{
@@ -248,11 +257,25 @@ p{
 @media(max-width: 576px){
     .landing-page{
         width: 100%;
-        height: 200px;
+        min-height: 400px;
+    
+    }
+    .landing-page img{
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .text{
+        width: 400px;
+        padding: 0.5rem;
+        color: #efc2b3;
+        margin-top: 8rem;
     }
 
     h1{ 
-        font-size: 1.9rem;
+        font-size: 2rem;
+        letter-spacing: 5px;
         text-align: center;
         margin-bottom: 0.6em;
     }
@@ -263,7 +286,7 @@ p{
     }
 
     .page-down{
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 
     .section-1{
