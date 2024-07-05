@@ -177,6 +177,11 @@ p{
     row-gap: 5px;
 }
 
+.product-image-landscape, img{
+    height: 98%;
+    width: 90%;
+}
+
 .product-title-landscape{
     display: grid;
     grid-template-columns: 200px  100px 80px;
@@ -259,7 +264,7 @@ p{
 
 @media(max-width: 576px){
     .landing-page{
-        width: 100%;
+        width: 100vw;
         min-height: 400px;
     
     }
@@ -343,6 +348,11 @@ p{
         padding: 0 0.5rem;
     }
 
+    .product-image-landscape, img{
+        height: 90%;
+        width: 80%;
+    }
+
     .order-tag{
         position: absolute;
         background-color: peru;
@@ -373,6 +383,7 @@ p{
     .shop-banner{
         height:100%;
         width:100%;
+        
     }  
 
     .shop-banner img{
