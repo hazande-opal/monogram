@@ -166,7 +166,7 @@ p{
 }
 
 .product-image-landscape, img{
-    height: 98%;
+    height: 100%;
     width: 100%;
 }
 
@@ -177,10 +177,6 @@ p{
     row-gap: 5px;
 }
 
-.product-image-landscape, img{
-    height: 98%;
-    width: 90%;
-}
 
 .product-title-landscape{
     display: grid;
@@ -264,7 +260,7 @@ p{
 
 @media(max-width: 576px){
     .landing-page{
-        width: 100vw;
+        width: 100%;
         min-height: 400px;
     
     }
@@ -335,7 +331,7 @@ p{
         height: 550px;
         width: 100%;
         display: grid;
-        grid-template-rows: 400px auto;
+        grid-template-rows: 400px 70px;
         row-gap: 10px;
         padding: 1rem;
     }
@@ -347,10 +343,11 @@ p{
         row-gap: 5px;
         padding: 0 0.5rem;
         width: 100%;
+        background-color: red;
     }
 
     .product-image-landscape, img{
-        height: 90%;
+        height: 100%;
         width: 100%;
     }
 
