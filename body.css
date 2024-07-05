@@ -346,11 +346,12 @@ p{
         grid-template-rows: 1fr 20px;
         row-gap: 5px;
         padding: 0 0.5rem;
+        width: 100%;
     }
 
     .product-image-landscape, img{
         height: 90%;
-        width: 80%;
+        width: 100%;
     }
 
     .order-tag{
