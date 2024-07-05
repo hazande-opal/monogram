@@ -9,9 +9,13 @@ footer{
     height: 320px;
     background-color: #1a2456;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 350px;
+    grid-template-columns: 1fr 350px;
     column-gap: 15px;
     padding: 2.5rem;
+}
+.row-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .col-1{
@@ -134,6 +138,13 @@ footer{
     .col-5{
         grid-row: 1;
         width: 400px;
+    }
+
+    .bio{
+        font-size: 0.8rem;
+        width: 38ch;
+        height: 40px;
+        color: #efc2b3;
     }
 
     .row-1{
