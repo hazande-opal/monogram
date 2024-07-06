@@ -329,11 +329,11 @@ p{
     .trial{
         position: relative;
         height: 550px;
-        width: 100%;
+        width: 400px;
         display: grid;
         grid-template-rows: 400px 70px;
         row-gap: 10px;
-        padding: 1rem;
+        padding: 2.5rem;
     }
 
     .product-details-landscape{
@@ -343,7 +343,6 @@ p{
         row-gap: 5px;
         padding: 0 0.5rem;
         width: 100%;
-        background-color: red;
     }
 
     .product-image-landscape, img{
@@ -391,11 +390,11 @@ p{
 
     .title-2{
         position: absolute;
-        width: 50%;
+        width: 70%;
         font-size: 0.5rem;
         color: #1a2456;
-        top: 100px;
-        left: 120px;
+        top: 120px;
+        left: 60px;
     }
 
     .section-3{

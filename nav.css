@@ -146,13 +146,30 @@ ion-icon:hover{
     display: none;
 }
 
+
+
 @media (max-width: 576px){
     nav{
         position: fixed;
-        top: 8px;
-        left: 15px;
-        right: 16px;
+        top: 20px;
+        left: 60px;
+        right: 60px;
         height: 50px;
+    }
+
+    .home-link{
+        width: 160px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0.6rem 0.4rem 0.4rem 0.4rem;
+        
+    }
+    
+    svg{
+        width: 150px;
+        height: 35px;
+        color: #efc2b3;
     }
 
     .link-container{
@@ -172,14 +189,21 @@ ion-icon:hover{
     .links{
         display: flex;
         justify-content: space-between;
-        width: 165px;
+        width: 140px;
     }
 
     .cart-x-currency{
-        width: 90px;
+        width: 80px;
+        padding: 0 0.2rem;
+    }
+
+    .currency{
+        width: 40px;
     }
 
     .bag-icon ion-icon{
         font-size: 1.6rem;
     }
+
+   
 }
