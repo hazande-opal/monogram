@@ -109,6 +109,18 @@ p{
     height: 100%;
 }
 
+.image-2{
+    display: none;
+}
+
+.product-image:hover .image-2{
+    display: block;
+}
+
+.product-image:hover .image-1{
+    display: none;
+}
+
 .product-details{
     width: 100%;
     display: grid;
