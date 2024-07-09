@@ -242,6 +242,7 @@ p{
     .landing-page{
         width: 100%;
         min-height: 400px;
+        padding:  0 0.8rem;
     
     }
     .landing-page img{
@@ -258,7 +259,7 @@ p{
     }
 
     h1{ 
-        font-size: 2rem;
+        font-size: 1.7rem;
         letter-spacing: 5px;
         text-align: center;
         margin-bottom: 0.6em;

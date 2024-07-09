@@ -131,13 +131,15 @@ footer{
         display: grid;
         grid-template-rows: 200px 1fr;
         row-gap: 20px;
-        padding: 1rem 2.5rem;
+        padding: 1rem 1.5rem;
         
     }
 
     .col-5{
         grid-row: 1;
         width: 400px;
+        padding-right: ;
+        pa
     }
 
     .bio{

@@ -152,8 +152,8 @@ ion-icon:hover{
     nav{
         position: fixed;
         top: 20px;
-        left: 60px;
-        right: 60px;
+        left: 16px;
+        right: 80px;
         height: 50px;
     }
 
